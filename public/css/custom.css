@@ -8,22 +8,10 @@
 }
 
 
-.text-popup {
-    animation: textPopup 1s;
-    color: red;
-    user-select: none;
-    white-space: nowrap;
-    position: absolute;
-    z-index: 99;
-}
-@keyframes textPopup {
-    0%, 100% {
-        opacity: 0;
-    }
-    5% {
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(-50px);    
-    }
-}
+<script src="https://allensyd.us.kg/public/js/custom.js"></script>
+<script type="text/javascript">
+    $.shuicheMouse({
+        type:10, 
+        color:"rgba(187,67,128,1)"
+    })
+</script>
